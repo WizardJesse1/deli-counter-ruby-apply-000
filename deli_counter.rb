@@ -16,11 +16,14 @@ def line(deli)
 end
 
 def take_a_number(deli)
-    
-    
-    
     $number += 1
+    deli << number
     puts "Welcome you have ticket number #{number}"  
+end
+
+def take_a_number1(deli, customer_name)
+    deli << customer_name
+    puts "Welcome, #{customer_name}. You are number #{deli.count} in line."
 end
 
 def now_serving(deli)
