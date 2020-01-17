@@ -13,7 +13,13 @@ def line(deli)
     puts "The line is currently: #{formatted_deli}"
 end
 
-def take_a_number(deli, customer_name)
+
+def take_a_number(deli)
+    
+    puts "Welcome you have ticket number #{deli[0]}"  
+end
+
+def take_a_number1(deli, customer_name)
     deli << customer_name
     puts "Welcome, #{customer_name}. You are number #{deli.count} in line."
 end
