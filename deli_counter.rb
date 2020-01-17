@@ -2,7 +2,7 @@
 
 katz_deli = []
 
-$number = 1
+$number = 0
 
 def line(deli)
     if deli.empty?
