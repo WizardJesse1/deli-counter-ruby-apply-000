@@ -2,6 +2,8 @@
 
 katz_deli = []
 
+$number = 1
+
 def line(deli)
     if deli.empty?
         puts 'The line is currently empty.'
@@ -13,15 +15,12 @@ def line(deli)
     puts "The line is currently: #{formatted_deli}"
 end
 
-
 def take_a_number(deli)
     
-    puts "Welcome you have ticket number #{deli[0]}"  
-end
-
-def take_a_number1(deli, customer_name)
-    deli << customer_name
-    puts "Welcome, #{customer_name}. You are number #{deli.count} in line."
+    
+    
+    $number += 1
+    puts "Welcome you have ticket number #{number}"  
 end
 
 def now_serving(deli)
