@@ -17,7 +17,7 @@ end
 
 def take_a_number(deli)
     $number += 1
-    deli << number
+    deli << $number
     puts "Welcome you have ticket number #{number}"  
 end
 
